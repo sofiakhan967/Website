@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body , html{
+overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('Hacker.webp');
+    background-position: bottom;
+    background-size:cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.header-content{
+    margin-bottom: 150px;
+    color:aliceblue;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 5vmin;
+}
+.line{
+    width:100px;
+    height: 4px;
+    background-color: brown;
+    margin: 10px auto;
+    border-radius: 3px;
+}
+h3{
+    margin: 15px auto;
+    font-size: 10vmin;
+
+}
+.btn{
+    padding: 8px 15px;
+    background-color: brown;
+    border-radius: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 25px;
+    color: whitesmoke;
+}
+ul{
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+
+}
+.nav-links li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav-links li{
+    margin: 0 30px;
+   
+}
+.logo{
+    font-size: 8vmin;
+    
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+
+}
+.title{
+    text-align: center;
+    font-size: 5vmin;
+    color:brown;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.courses .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    margin: 20px auto;
+    color:rgb(163, 27, 27);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    padding: 0px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    color:brown;
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
