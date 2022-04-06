@@ -38,8 +38,8 @@ h3{
 
 }
 .btn{
-    padding: 8px 15px;
-    background-color: brown;
+    padding: 10px 20px;
+    background-color: rgb(151, 12, 12);
     border-radius: 25px;
     color: whitesmoke;
     text-decoration: none;
@@ -69,6 +69,12 @@ ul{
 .nav-links li{
     margin: 0 30px;
    
+}
+li a:hover{
+    background-color: whitesmoke;
+    color:black;
+    padding: 15px 25px;
+    border-radius: 30px;
 }
 .logo{
     font-size: 8vmin;
@@ -115,3 +121,149 @@ h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+
+.info{
+    width: 100%;
+    height: 80vh;
+    background: rgb(168,12,12);
+background: linear-gradient(90deg, rgba(168,12,12,0.8519782913165266) 29%, rgba(0,10,11,0.773546918767507) 86%);
+
+
+}
+.text{
+    width:80%;
+    padding:50px;
+    color:whitesmoke;
+   
+}
+.text h1{
+    font-size: 7vmin;
+    margin: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text .btn{
+  margin: 50px 50px;
+}
+.text p{
+    margin-bottom: 40px;
+}
+.text .line{
+    width: 250px;
+    height: 6px;
+    margin:  20px 45px;
+    background-color: rgb(37, 34, 34);
+}
+
+
+.gallery .books{
+display: flex;
+flex-wrap: wrap;
+}
+.books img{
+    max-width:250px;
+    height: 250px;
+    margin: 5px;
+}
+.gallery .row .col{
+    width: 50%;
+}
+.gallery h2{
+    
+    font-size: 5vmin;
+    
+
+}
+.gallery .row{
+    width: 100%;
+}
+
+.gallery .btn{
+margin:auto 75px ;
+}
+
+
+.footer{
+    width: 100%;
+    min-height: 100px;
+    padding:10px 80px;
+    margin: 0;
+    background-color: rgb(51, 50, 50);
+    color: whitesmoke;
+    text-align: center;
+}
+.footer p{
+    margin: 20px auto;
+    padding: 20px auto;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+
+    display: none;
+
+}
+
+/* for mobile */
+@media only screen and (max-width:640px){
+    /*courses*/
+    .row{
+        flex-direction: column;
+    }
+    .col img{
+        max-width: 90%;
+
+    }
+    .row .col{
+        margin: 20px auto;
+    }
+
+
+
+    .text{
+        width: 100%;
+
+    }
+    .text p{
+        font-size: 3vmin;
+    }
+    .gallery .row{
+        width: 100%;
+    }
+  .gallery col{
+        width: 100%;
+    }
+   
+
+    /*navbar*/
+    .navbar{
+        padding: 0;
+
+    }
+    .logo{
+        position:absolute;
+        top:30px;
+        left:30px;
+    }
+    .nav-links{
+        margin-top: -900px;
+        flex-direction: column;
+        width:100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgb(226, 101, 101);
+    }
+    .mobile-menu{
+        margin-top: 0;
+    }
+    .nav-links li{
+        margin: 30px auto;
+    
+    }
+    .menu-btn{
+        display: block;
+    }
+}

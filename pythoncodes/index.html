@@ -16,6 +16,7 @@
 <li><a href="#">About</a></li>
 <li><a href="#">Courses</a></li>
 </ul>
+<img src="menu (1).png" alt="" class="menu-btn">
     </nav>
     <header>
         <div class="header-content">
@@ -43,5 +44,49 @@
             </div>
         </div>
     </section>
+    <section class="info">
+        <div class="text">
+            <h1>How You Can Enter in Cyber Security?</h1>
+            <div class="line"></div>
+        <p>“I really think that if we change our own approach and thinking about what we have available to us, that is what will unlock our ability to truly excel in security. It’s a perspectives exercise. What would it look like if abundance were the reality and not resource constraint?”</p>
+        <a href="#" class="btn">Check Now</a>
+        </div>
+    </section>
+
+
+    <section class="gallery">
+        <div class="row">
+            <div class="col">
+                
+                <h2>BEGINNER'S GUIDE TO CYBER SECUIRTY</h2>
+                <p>These are the best books to follow as a beginner or to start as a BugBounty Hunter.</p>
+                <a href="#" class="btn">Buy Now</a>
+            
+        </div>
+            <div class="col image">
+            <div class="books">
+                <img src="book1.jpg" alt="" width="250" height="250">
+                <img src="book2.jpeg" alt="" width="250" height="250">
+                <img src="book3.png" alt="" width="250" height="250">
+                <img src="book4.jpg" alt="" width="250" height="250">
+            </div>
+        </div>
+        </div>
+
+
+    </section>
+
+    <section class="footer">
+        <p>Made With Love in India | Call - 1234567890 | Email:example@gmail.com</p>
+        <p>@2022 | All Copyrights reserved</p>
+    </section>
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
 </body>
 </html>
